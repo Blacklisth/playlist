@@ -11,58 +11,58 @@ const CONFIG = {
             duration: "4:23",
             message: "Cette chanson était en fond lors de notre première danse. Chaque note me rappelle ce moment magique.",
             // Pour ajouter un vrai lien audio, utilisez:
-            // audioUrl: "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            audioUrl: "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
             // ou audioUrl: "chemin/vers/votre/fichier.mp3"
-            audioUrl: ""
+            
         },
         {
             title: "All of Me",
             artist: "John Legend",
-            duration: "4:29",
+            duration: "5:07",
             message: "Les paroles de cette chanson décrivent parfaitement ce que je ressens pour toi. Tu es tout pour moi.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=450p7goxZqg&list=RD450p7goxZqg&start_radio=1"
         },
         {
             title: "A Thousand Years",
             artist: "Christina Perri",
-            duration: "4:45",
+            duration: "4:47",
             message: "J'ai attendu mille ans pour te trouver, et je t'attendrais encore mille ans de plus.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=rtOvBOTyX00&list=RDrtOvBOTyX00&start_radio=1"
         },
         {
             title: "Thinking Out Loud",
             artist: "Ed Sheeran",
-            duration: "4:41",
+            duration: "4:49",
             message: "Quand tes jambes ne fonctionneront plus, je te porterai. Parce que mon amour pour toi est éternel.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=lp-EO5I60KA&list=RDlp-EO5I60KA&start_radio=1"
         },
         {
             title: "Make You Feel My Love",
             artist: "Adele",
-            duration: "3:32",
+            duration: "4:06",
             message: "Je ferais tout pour que tu te sentes aimée, chaque jour de ta vie.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=0put0_a--Ng&list=RD0put0_a--Ng&start_radio=1"
         },
         {
             title: "Can't Help Falling in Love",
             artist: "Elvis Presley",
-            duration: "3:01",
+            duration: "3:00",
             message: "Comme une rivière qui coule vers la mer, mon amour coule naturellement vers toi.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=vGJTaP6anOU&list=RDvGJTaP6anOU&start_radio=1"
         },
         {
             title: "Your Song",
             artist: "Elton John",
-            duration: "4:01",
+            duration: "3:48",
             message: "Cette chanson est pour toi, parce que tu rends ma vie merveilleuse.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=GlPlfCy1urI&list=RDGlPlfCy1urI&start_radio=1"
         },
         {
             title: "At Last",
             artist: "Etta James",
-            duration: "3:00",
+            duration: "3:04",
             message: "Enfin, j'ai trouvé l'amour que je cherchais depuis toujours.",
-            audioUrl: ""
+            audioUrl: "https://www.youtube.com/watch?v=S-cbOl96RFM&list=RDS-cbOl96RFM&start_radio=1"
         }
     ],
     
