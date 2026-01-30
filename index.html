@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Playlist d'Amour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particules de fond -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header avec titre -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="main-title">
+                <span class="title-icon">🎵</span>
+                Notre Playlist d'Amour
+                <span class="title-icon">🎵</span>
+            </h1>
+            <p class="subtitle">Les chansons qui racontent notre histoire</p>
+        </div>
+    </header>
+
+    <!-- Lecteur principal -->
+    <section class="player-section">
+        <div class="player-container">
+            <!-- Pochette de l'album -->
+            <div class="album-art" id="albumArt">
+                <div class="vinyl-record">
+                    <div class="vinyl-hole"></div>
+                    <div class="vinyl-label">
+                        <span class="vinyl-text">❤️</span>
+                    </div>
+                </div>
+                <div class="album-reflection"></div>
+            </div>
+
+            <!-- Info de la chanson actuelle -->
+            <div class="current-song-info">
+                <h2 class="song-title" id="songTitle">Sélectionnez une chanson</h2>
+                <p class="song-artist" id="songArtist">---</p>
+                <p class="song-message" id="songMessage">Découvrez la signification de chaque chanson...</p>
+            </div>
+
+            <!-- Contrôles du lecteur -->
+            <div class="player-controls">
+                <button class="control-btn" id="prevBtn" title="Précédent">
+                    <span>⏮</span>
+                </button>
+                <button class="control-btn play-btn" id="playBtn" title="Lecture/Pause">
+                    <span id="playIcon">▶</span>
+                </button>
+                <button class="control-btn" id="nextBtn" title="Suivant">
+                    <span>⏭</span>
+                </button>
+            </div>
+
+            <!-- Barre de progression -->
+            <div class="progress-container">
+                <span class="time-display" id="currentTime">0:00</span>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="time-display" id="duration">0:00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Liste des chansons -->
+    <section class="playlist-section">
+        <div class="playlist-header">
+            <h2 class="playlist-title">🎶 Notre Playlist</h2>
+            <p class="playlist-count"><span id="songCount">0</span> chansons</p>
+        </div>
+
+        <div class="playlist-container" id="playlistContainer">
+            <!-- Les chansons seront générées dynamiquement par JavaScript -->
+            <!-- 
+            PERSONNALISATION : Ajoutez vos chansons dans le fichier script.js
+            Vous pouvez utiliser :
+            - YouTube URLs (exemple: https://www.youtube.com/watch?v=VIDEO_ID)
+            - Spotify URLs (exemple: https://open.spotify.com/track/TRACK_ID)
+            - Fichiers audio locaux (.mp3, .wav)
+            -->
+        </div>
+    </section>
+
+    <!-- Section message d'amour -->
+    <section class="love-message-section">
+        <div class="love-message-card">
+            <div class="message-icon">💕</div>
+            <h3 class="message-title">La Musique de Notre Amour</h3>
+            <p class="message-text" id="finalMessage">
+                Chaque chanson de cette playlist raconte un moment précieux de notre histoire.
+                La musique nous accompagne depuis le premier jour, et continuera de bercer notre amour pour toujours.
+            </p>
+            <div class="message-hearts">
+                <span>❤️</span>
+                <span>💖</span>
+                <span>💕</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Créé avec ❤️ pour toi</p>
+    </footer>
+
+    <!-- Lecteur audio invisible (pour les fichiers audio locaux) -->
+    <audio id="audioPlayer"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
